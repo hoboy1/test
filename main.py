@@ -4,7 +4,7 @@ import random
 class DodgeGame:
     def __init__(self, master):
         self.master = master
-        master.title("닷지 게임")
+        master.title("게임")
         self.width = 400
         self.height = 400
         self.canvas = tk.Canvas(master, width=self.width, height=self.height, bg="white")
